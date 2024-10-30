@@ -1,0 +1,17 @@
+import React from 'react';
+
+class ButtonClick extends React.Component {
+  handleClick = () => {
+    alert('¡Botón clickeado!');
+  };
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.handleClick}>Clic aquí</button>
+      </div>
+    );
+  }
+}
+
+export default ButtonClick;
